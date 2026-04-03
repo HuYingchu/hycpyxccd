@@ -76,6 +76,7 @@ S-CCD for outputting continuous seasonal and trend states:
 
 3. Tutorials
 ----------------
+
 .. list-table::
    :header-rows: 1
    :widths: 5 25 25 25 15 15 15
@@ -169,6 +170,7 @@ S-CCD for outputting continuous seasonal and trend states:
 .. _Near real-time monitoring: https://github.com/Remote-Sensing-of-Land-Resource-Lab/pyxccd/blob/devel/tutorials/notebooks/7_near_realtime_logging_hls.ipynb
 .. _Gap filling: https://github.com/Remote-Sensing-of-Land-Resource-Lab/pyxccd/blob/devel/tutorials/notebooks/8_gapfilling_general_FY3B.ipynb
 
+Tutorial datasets: `Github link <https://github.com/Remote-Sensing-of-Land-Resource-Lab/pyxccd/tree/devel/tutorials/datasets>`_, `夸克硬盘 (for China mainland) <https://pan.quark.cn/s/091eda7c76ff>`_
 
 4. GUI
 ------------
@@ -184,11 +186,16 @@ We provided GUI to quickly test S-CCD or COLD algorithms using point-based time 
 ----------------
 API documents: `readthedocs <https://pyxccd.readthedocs.io/en/latest>`_
 
+Technical details and performance: `pyxccd paper <https://eartharxiv.org/repository/view/12261/>`_
+
 6. Citations
 ------------
 
 If you make use of the algorithms in this repo (or to read more about them),
 please cite (/see) the relevant publications from the following list:
+
+`[PYXCCD] <https://eartharxiv.org/repository/view/12261/>`_
+Ye, S., & Hu, Y. (2026). Pyxccd: An Efficient Python Package for Break-aware Time Series Analysis of Earth Observation Data.
 
 `[S-CCD] <https://www.sciencedirect.com/science/article/pii/S003442572030540X>`_
 Ye, S., Rogan, J., Zhu, Z., & Eastman, J. R. (2021). A near-real-time
@@ -201,7 +208,11 @@ Zhu, Z., Zhang, J., Yang, Z., Aljaddani, A. H., Cohen, W. B., Qiu, S., &
 Zhou, C. (2020). Continuous monitoring of land disturbance based on
 Landsat time series. *Remote Sensing of Environment*, *238*, 111116.
 
-The recent applications of S-CCD could be found in `CONUS Land Watcher <https://gers.users.earthengine.app/view/nrt-conus>`_
+
+7. Application
+----------------
+
+The recent applications of S-CCD could be found in `China's Forest Disturbance Watcher <https://forestwatch.com.cn>`_
 
 Q&A
 ---
